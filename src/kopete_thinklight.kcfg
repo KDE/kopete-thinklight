@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Author: Bernhard Beschow-->
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+	<kcfgfile name="kopeterc"/>
+
+	<group name="Think Light Plugin">
+		<entry name="Duration" type="UInt">
+			<label>Flash duration in milliseconds.</label>
+			<min>1</min>
+			<max>10000</max>
+			<default>40</default>
+		</entry>
+
+		<entry name="NumFlashes" type="UInt">
+			<label>Number of flashes.</label>
+			<min>1</min>
+			<max>100</max>
+			<default>2</default>
+		</entry>
+
+		<entry name="Path" type="Path">
+			<label>Path to thinklight device file.</label>
+			<default code="true">QString::fromUtf8( "/proc/acpi/ibm/light" )</default>
+		</entry>
+
+		<entry name="initScript" type="Path">
+			<label>Path to thinklight initialization script.</label>
+			<default code="true">QString::fromUtf8( "kopete_thinklight_fixpermissions" )</default>
+		</entry>
+	</group>
+</kcfg>

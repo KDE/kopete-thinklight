@@ -1,0 +1,16 @@
+[Desktop Entry]
+Encoding=UTF-8
+Icon=identity
+Type=Service
+ServiceTypes=KCModule
+
+X-KDE-ModuleType=Library
+X-KDE-Library=kcm_kopete_thinklight
+X-KDE-FactoryName=ThinklightPreferencesFactory
+X-KDE-ParentApp=kopete_thinklight
+X-KDE-ParentComponents=kopete_thinklight
+
+Name=Thinkpad Light
+Name[de]=Thinkpad-Licht
+Comment=Flashes Thinkpad light on incoming message
+Comment[de]=Lässt das Thinkpad-Licht bei eintreffender Nachricht blinken
