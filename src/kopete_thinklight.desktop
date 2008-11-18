@@ -15,6 +15,4 @@ X-KDE-PluginInfo-Depends=
 X-KDE-PluginInfo-License=GPL
 X-KDE-PluginInfo-EnabledByDefault=false
 Name=Thinkpad Light
-Name[de]=Thinkpad-Licht
 Comment=Flashes Thinkpad light on incoming message
-Comment[de]=Lässt bei eintreffender Nachricht das Thinkpad-Licht blinken
