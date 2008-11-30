@@ -19,8 +19,8 @@
 
 #include "kopete_thinklight.h"
 
-#include <kopetechatsessionmanager.h>
-#include <kopeteinfoevent.h>
+#include <kopete/kopetechatsessionmanager.h>
+#include <kopete/kopeteinfoevent.h>
 
 #include <kgenericfactory.h>
 

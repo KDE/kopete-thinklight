@@ -18,7 +18,7 @@
 #ifndef THINKLIGHTPLUGIN_H
 #define THINKLIGHTPLUGIN_H
 
-#include <kopeteplugin.h>
+#include <kopete/kopeteplugin.h>
 
 #include <QTimer>
 #include <QProcess>
