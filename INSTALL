@@ -1,0 +1,21 @@
+Known issues:
+
+== Issue ==
+
+The plugin writes to and reads from the light's device file. By default, these
+permissions are only given to root. Since kopete runs with normal user
+privilliges, however, reads and writes would fail. Hence, the permissions of
+the device file must be adjusted for normal users.
+
+Since the device file lives inside the /proc space, permissions can't be
+changed permanently (they are gone after a reboot). The solution is to execute
+the helper program "kopete_thinklight_fixpermissions" whenever the thinklight
+plugin is loaded, which gives ordinary users read/write permissions to the
+device file. For this to work, the helper program needs to have the suid-bit
+set.
+
+== Solution ==
+
+Please make sure the executable "kopete_thinklight_fixpermissions" has the
+suid-bit set.
+
