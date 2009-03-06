@@ -11,14 +11,14 @@
 			<label>Flash duration in milliseconds.</label>
 			<min>1</min>
 			<max>10000</max>
-			<default>40</default>
+			<default>100</default>
 		</entry>
 
 		<entry name="NumFlashes" type="UInt">
 			<label>Number of flashes.</label>
 			<min>1</min>
 			<max>100</max>
-			<default>2</default>
+			<default>3</default>
 		</entry>
 
 		<entry name="Path" type="Path">
