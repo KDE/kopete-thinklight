@@ -70,13 +70,13 @@ void ThinklightPlugin::initFinished( int exitCode, QProcess::ExitStatus exitStat
 	if ( !QFileInfo( ThinklightKcfg::self()->path() ).exists() )
 	{
 		Kopete::InfoEvent *pEvent = new Kopete::InfoEvent();
-		pEvent->setText( i18n( "%1 does not exist! If you have a Thinkpad laptop, please do a \"modprobe ibm_acpi\" as root." ).arg( ThinklightKcfg::self()->path() ) );
+		pEvent->setText( i18n( "%1 does not exist. If you have a Thinkpad laptop, please do a \"modprobe ibm_acpi\" as root." ).arg( ThinklightKcfg::self()->path() ) );
 		pEvent->sendEvent();
 	}
 	else if ( !QFileInfo( ThinklightKcfg::self()->path() ).isWritable() )
 	{
 		Kopete::InfoEvent *pEvent = new Kopete::InfoEvent();
-		pEvent->setText( i18n( "%1 cannot be written to! Thinklight plugin could not initzalize correctly. Please contact your system administrator." ).arg( ThinklightKcfg::self()->path() ) );
+		pEvent->setText( i18n( "%1 cannot be written to. Thinklight plugin could not initialize correctly. Please contact your system administrator." ).arg( ThinklightKcfg::self()->path() ) );
 		pEvent->sendEvent();
 	}
 }
