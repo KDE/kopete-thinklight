@@ -26,3 +26,7 @@ Name[sv]=Thinkpad lätt
 Name[uk]=Лампочка Thinkpad
 Name[x-test]=xxThinkpad Lightxx
 Comment=Flashes Thinkpad light on incoming message.
+Comment[pt]=Pisca a luz do Thinkpad ao receber uma mensagem.
+Comment[pt_BR]=Pisca a luz do Thinkpad ao receber uma mensagem.
+Comment[sv]=Blinkar lampa på Thinkpad vid inkommande meddelande.
+Comment[uk]=Блимає лампочкою Thinkpad за появи вхідного повідомлення.
