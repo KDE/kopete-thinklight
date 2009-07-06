@@ -29,6 +29,7 @@ Name[uk]=Лампочка Thinkpad
 Name[x-test]=xxThinkpad Lightxx
 Comment=Flashes Thinkpad light on incoming message.
 Comment[et]=Välgutab saabuva sõnumi puhul Thinkpadi tulukest.
+Comment[fr]=Allume la diode Thinkpad à l'arrivée d'un message
 Comment[km]=ចាំង​ពន្លឺ Thinkpad នៅ​ពេល​មាន​សារ​ចូល ។
 Comment[nb]=Blinker Thinkpad-lyset ved innkommende melding.
 Comment[pt]=Pisca a luz do Thinkpad ao receber uma mensagem.
