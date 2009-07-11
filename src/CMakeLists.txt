@@ -28,7 +28,7 @@ install(TARGETS kcm_kopete_thinklight DESTINATION ${PLUGIN_INSTALL_DIR})
 
 kde4_add_executable(kopete_thinklight_fixpermissions kopete_thinklight_fixpermissions.cpp)
 
-install(TARGETS kopete_thinklight_fixpermissions ${INSTALL_TARGETS_DEFAULT_ARGS})
+install(TARGETS kopete_thinklight_fixpermissions PERMISSIONS SETUID OWNER_EXECUTE OWNER_WRITE OWNER_READ GROUP_EXECUTE GROUP_READ WORLD_EXECUTE WORLD_READ DESTINATION ${INSTALL_TARGETS_DEFAULT_ARGS})
 
 ########### install files ###############
 
