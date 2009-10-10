@@ -11,6 +11,7 @@ X-KDE-ParentApp=kopete_thinklight
 X-KDE-ParentComponents=kopete_thinklight
 
 Name=Thinkpad Light
+Name[da]=Thinkpad-lys
 Name[el]=Φως Thinkpad
 Name[en_GB]=Thinkpad Light
 Name[es]=Thinkpad Light
@@ -31,6 +32,7 @@ Name[tr]=Thinkpad Light
 Name[uk]=Лампочка Thinkpad
 Name[x-test]=xxThinkpad Lightxx
 Comment=Flashes Thinkpad light on incoming message.
+Comment[da]=Blinker med Thinkpad-lyset ved indkommende beskeder.
 Comment[en_GB]=Flashes Thinkpad light on incoming message.
 Comment[es]=Parpadea luz de Thinkpad con un mensaje entrante.
 Comment[et]=Välgutab saabuva sõnumi puhul Thinkpadi tulukest.
