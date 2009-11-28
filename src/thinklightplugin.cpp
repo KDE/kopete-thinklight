@@ -70,13 +70,13 @@ void ThinklightPlugin::initFinished( int exitCode, QProcess::ExitStatus exitStat
 	if ( !QFileInfo( ThinklightKcfg::self()->path() ).exists() )
 	{
 		Kopete::InfoEvent *pEvent = new Kopete::InfoEvent();
-		pEvent->setText( i18n( "%1 does not exist. If you have a Thinkpad laptop, please do a \"modprobe ibm_acpi\" as root." ).arg( ThinklightKcfg::self()->path() ) );
+		pEvent->setText( i18n( "%1 does not exist. If you have a Thinkpad laptop, please do a \"modprobe ibm_acpi\" as root.", ThinklightKcfg::self()->path() ) );
 		pEvent->sendEvent();
 	}
 	else if ( !QFileInfo( ThinklightKcfg::self()->path() ).isWritable() )
 	{
 		Kopete::InfoEvent *pEvent = new Kopete::InfoEvent();
-		pEvent->setText( i18n( "%1 cannot be written to. Thinklight plugin could not initialize correctly. Please contact your system administrator." ).arg( ThinklightKcfg::self()->path() ) );
+		pEvent->setText( i18n( "%1 cannot be written to. Thinklight plugin could not initialize correctly. Please contact your system administrator.", ThinklightKcfg::self()->path() ) );
 		pEvent->sendEvent();
 	}
 }
@@ -91,7 +91,7 @@ void ThinklightPlugin::initError( QProcess::ProcessError error )
 		pEvent->setText( i18n( "The program \"kopete_thinklght_fixpermissons\" failed to start. Please contact your system administrator." ) );
 		break;
 	default:
-		pEvent->setText( i18n( "The program \"kopete_thinklght_fixpermissons\" failed with error %1. Please contact your system administrator." ).arg( error ) );
+		pEvent->setText( i18n( "The program \"kopete_thinklght_fixpermissons\" failed with error %1. Please contact your system administrator.", error ) );
 		break;
 	}
 
