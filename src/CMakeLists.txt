@@ -1,7 +1,5 @@
-project(src) 
-
 link_directories(${KDE4_LIB_DIR} ${CMAKE_CURRENT_BINARY_DIR}/.. ${CMAKE_CURRENT_BINARY_DIR})
-include_directories(${KDE4_INCLUDES} ${KOPETE_INCLUDE_DIR} ${QT_INCLUDES} ${CMAKE_CURRENT_BINARY_DIR})
+include_directories(${KDE4_INCLUDES} ${KOPETE_INCLUDES} ${QT_INCLUDES} ${CMAKE_CURRENT_BINARY_DIR})
 
 ########### kopete thinklight plugin ###############
 
