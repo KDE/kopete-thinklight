@@ -12,6 +12,7 @@ X-KDE-ParentComponents=kopete_thinklight
 
 Name=Thinkpad Light
 Name[cs]=Světlo Thinkpadu
+Name[hu]=Thinkpad fény
 Name[nl]=Thinkpad-lampje
 Name[pl]=Światło Thinkpad
 Name[pt]=Luz do Thinkpad
@@ -23,6 +24,7 @@ Name[uk]=Лампочка Thinkpad
 Name[x-test]=xxThinkpad Lightxx
 Comment=Flashes Thinkpad light on incoming message.
 Comment[cs]=Zableskne světlem Thinkpadu při příchozí zprávě.
+Comment[hu]=Felvillantja a Thinkpad fényét bejövő üzenetkor.
 Comment[nl]=Laat een Thinkpad-lampje flikkeren bij een binnenkomend bericht.
 Comment[pl]=Błyska światełkami Thinkpad przy przychodzącej wiadomości.
 Comment[pt]=Pisca a luz do Thinkpad ao receber uma mensagem.
